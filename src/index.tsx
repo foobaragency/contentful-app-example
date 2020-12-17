@@ -21,7 +21,7 @@ import Config from "./components/ConfigScreen"
 import EntryEditor from "./components/EntryEditor"
 import Page from "./components/Page"
 import Sidebar from "./components/Sidebar"
-import Field from "./components/Field"
+import { Field } from "./components/Field"
 import Dialog from "./components/Dialog"
 
 import LocalhostWarning from "./components/LocalhostWarning"

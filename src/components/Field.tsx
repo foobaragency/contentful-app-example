@@ -1,16 +1,61 @@
-import React from "react"
-import { Paragraph } from "@contentful/forma-36-react-components"
+import { Card } from "@contentful/forma-36-react-components"
+import color from "color"
 import { FieldExtensionSDK } from "contentful-ui-extensions-sdk"
+import { useEffect, useState } from "react"
 
-interface FieldProps {
+export interface FieldProps {
   sdk: FieldExtensionSDK
 }
 
-const Field = (props: FieldProps) => {
-  // If you only want to extend Contentful's default editing experience
-  // reuse Contentful's editor components
-  // -> https://www.contentful.com/developers/docs/extensibility/field-editors/
-  return <Paragraph>Hello Entry Field Component</Paragraph>
+const colors = {
+  slateGrey: "#0A0D15",
+  steelGrey: "#A3ADC7",
+  fogGrey: "#D0D5E2",
+  cobaltBlue: "#005DDB",
+  arcticBlue: "#009DF0",
+  signalBlue: "#02D1FF",
+  solidViolet: "#6600B6",
+  vividViolet: "#9D21FF",
+  signalPink: "#FF32D2",
+  powderWhite: "#F9FAFB",
+  green: "#00DC80",
+  yellow: "#FFCD4C",
+  red: "#FC395C",
 }
 
-export default Field
+export const Field = (props: FieldProps) => {
+  const [value, setValue] = useState(props.sdk.field.getValue())
+
+  useEffect(() => {
+    props.sdk.window.startAutoResizer()
+  }, [props.sdk.window])
+
+  return (
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, 8rem)",
+        gap: "8px",
+      }}
+    >
+      {Object.entries(colors).map(([name, hex]) => (
+        <Card
+          style={{
+            height: "2rem",
+            background: hex,
+            color: color(hex).isLight() ? colors.slateGrey : colors.powderWhite,
+            fontFamily: "monospace",
+          }}
+          onClick={() => {
+            props.sdk.field.setValue(name)
+            setValue(name)
+          }}
+          selected={value === name}
+        >
+          <div>{name}</div>
+          <code>{hex}</code>
+        </Card>
+      ))}
+    </div>
+  )
+}
