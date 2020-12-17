@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build",
-    "eject": "react-scripts eject",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md}\"",
-    "start": "cross-env BROWSER=none react-scripts start",
+    "dev": "cross-env BROWSER=none react-scripts start",
     "test": "react-scripts test"
   },
   "browserslist": {
