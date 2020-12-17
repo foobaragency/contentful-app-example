@@ -1,3 +1,14 @@
+# Foobar Brand Color Contentful Extension
+
+## Related Resources
+
+- [Foobar Colors](https://www.figma.com/file/2r6SU370jdGi3cDqCjRpoB/New-fA-Website?node-id=775%3A0)
+- [Create Contentful App Docs](https://www.contentful.com/developers/docs/extensibility/app-framework/create-contentful-app/)
+- [Contentful Space](https://app.contentful.com/spaces/id1aih0ikexo/environments/playground/content_types)
+- [Official Live Coding Example](https://www.youtube.com/watch?v=OtmV3TPTbRs)
+
+## Techical README
+
 This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
 
 ## Available Scripts
