@@ -43,7 +43,7 @@ export const Field = (props: FieldProps) => {
           style={{
             height: "2rem",
             background: hex,
-            color: color(hex).isLight() ? colors.slateGrey : colors.powderWhite,
+            color: color(hex).isLight() ? "black" : "white",
             fontFamily: "monospace",
           }}
           onClick={() => {
