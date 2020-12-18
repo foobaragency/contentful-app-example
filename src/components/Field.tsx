@@ -1,7 +1,7 @@
 import { Card } from "@contentful/forma-36-react-components"
 import color from "color"
 import { FieldExtensionSDK } from "contentful-ui-extensions-sdk"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 
 export interface FieldProps {
   sdk: FieldExtensionSDK
@@ -40,17 +40,18 @@ export const Field = (props: FieldProps) => {
     >
       {Object.entries(colors).map(([name, hex]) => (
         <Card
+          key={name}
+          selected={value === name}
+          onClick={() => {
+            props.sdk.field.setValue(name)
+            setValue(name)
+          }}
           style={{
             height: "2rem",
             background: hex,
             color: color(hex).isLight() ? "black" : "white",
             fontFamily: "monospace",
           }}
-          onClick={() => {
-            props.sdk.field.setValue(name)
-            setValue(name)
-          }}
-          selected={value === name}
         >
           <div>{name}</div>
           <code>{hex}</code>
