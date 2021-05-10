@@ -1185,14 +1185,24 @@
   dependencies:
     "@contentful/forma-36-tokens" "^0.9.2"
 
-"@contentful/forma-36-react-components@^3.64.2", "@contentful/forma-36-react-components@^3.72.1":
-  version "3.72.1"
-  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.72.1.tgz#7d904f4773bc987c1d9a02579c8ab6ff1e84c67a"
-  integrity sha512-ZvZcqvHLSgAM12rcSTC8wrOr+GejPNZ5+Vfq0VW3OAdIQG7oy63rSuHkOqPRroHDoSlwSPU1wv/z7EKUAFxcHA==
+"@contentful/forma-36-fcss@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-fcss/-/forma-36-fcss-0.3.2.tgz#bd907d8d68b9fa58d04528fd85e060230405341e"
+  integrity sha512-QTN/vmEV2SEDVmyk8FRDmi4DarykWATIBfZwR0ZQTkWxI3mBMULPias1mQlSBnqdgQ2wVU3StKs6QXfQE7Z+nw==
+  dependencies:
+    "@contentful/forma-36-tokens" "^0.10.2"
+
+"@contentful/forma-36-react-components@^3.64.2", "@contentful/forma-36-react-components@^3.89.3":
+  version "3.89.3"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.89.3.tgz#252e31429cbecc1cede2179b671d82103a57379d"
+  integrity sha512-rtBuWee21qdMvXofBkAdr3tSPrA7GJfB4BeJQKrnxYEtRuixbo9mHhcUIlxR6V/HRfgCLgIyfz12BNwiChciAw==
   dependencies:
     "@babel/runtime" "^7.3.4"
+    "@contentful/forma-36-fcss" "^0.3.2"
+    "@contentful/forma-36-tokens" "^0.10.2"
     "@popperjs/core" "^2.4.4"
     classnames "^2.2.6"
+    csstype "^3.0.5"
     dayjs "^1.9.1"
     react-animate-height "^2.0.7"
     react-copy-to-clipboard "^5.0.1"
@@ -1200,6 +1210,11 @@
     react-popper "^2.2.3"
     react-transition-group "^2.4.0"
     truncate "^2.0.1"
+
+"@contentful/forma-36-tokens@^0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.10.2.tgz#a6f806e6e21f50dc38ff577762a4fb3f29352d67"
+  integrity sha512-HHLwIN8mQv41GYxcTBYJjiDwpmmWwbcIRV09ciSDxhciYJ+wQkIurQ2lmnKHebPwv35X6fHXB4OdSTK1d9mUug==
 
 "@contentful/forma-36-tokens@^0.9.2":
   version "0.9.2"
@@ -4039,10 +4054,10 @@ csstype@^2.5.7:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.14.tgz#004822a4050345b55ad4dcc00be1d9cf2f4296de"
   integrity sha512-2mSc+VEpGPblzAxyeR+vZhJKgYg0Og0nnRi7pmRXFYYxSfnOnW8A5wwQb4n4cE2nIOzqKOAzLCaEX6aBmNEv8A==
 
-csstype@^3.0.2:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
-  integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
+csstype@^3.0.2, csstype@^3.0.5:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
+  integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
 cyclist@^1.0.1:
   version "1.0.1"
