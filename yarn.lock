@@ -1915,6 +1915,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@contentful/app-sdk@^3.29.2":
+  version "3.34.2"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-3.34.2.tgz#0f65915d5279c0739b85ae9171fd4b92bfd4568d"
+  integrity sha512-ExhmInBqkZJu0L9vYu2DZ3e/CUEJgdKPW1IId7rGQ7sfy5v/IAbVtJrUhyBy2FIC+OTNbAS3pauS5lsAULLBog==
+
 "@contentful/field-editor-shared@^0.13.2":
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.13.2.tgz#6615e0eb1536b82104233b0f5abf51e00fb16450"
@@ -1926,14 +1931,25 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-single-line@^0.11.4":
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.11.4.tgz#bd3e2cd8108413de7b9211cd891da7b8d7a9da43"
-  integrity sha512-oHtRZ8+d9Z64iRMTLVrJOWxoTlAldik1nSNjYf1LWLY1sTMdlfaZ26uj3UtUTCFVrn0/HU7NykB02KAxc9VbcA==
+"@contentful/field-editor-shared@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.16.0.tgz#2bbb5c7ea73969d3694c81d1981a88ffd2af759b"
+  integrity sha512-ya4P4HKRMjfJHurCQ5fb/yKyGxPHXisXSf/vwfR2pys62KAhspX9xrIdOFjYhAKaoCdUh9GzL5WL+YBy16NjyQ==
   dependencies:
-    "@contentful/field-editor-shared" "^0.13.2"
-    "@contentful/forma-36-react-components" "^3.64.2"
-    "@contentful/forma-36-tokens" "^0.9.2"
+    "@contentful/app-sdk" "^3.29.2"
+    "@contentful/forma-36-tokens" "^0.10.1"
+    emotion "^10.0.17"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
+
+"@contentful/field-editor-single-line@^0.14.1":
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.14.1.tgz#9f539faf527f3eabc89ff6c05ab1ae03e401140e"
+  integrity sha512-KIIj8rkzpA+RKewqlZkjCfL97f2lPCIjwaEZwz+vMAfd2hQZW+rXcrD7iMzs8u7Inveg76FNvYfRnR9fzHb8hw==
+  dependencies:
+    "@contentful/field-editor-shared" "^0.16.0"
+    "@contentful/forma-36-react-components" "^3.79.5"
+    "@contentful/forma-36-tokens" "^0.10.1"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
@@ -1958,7 +1974,7 @@
   dependencies:
     "@contentful/forma-36-tokens" "^0.10.2"
 
-"@contentful/forma-36-react-components@^3.64.2", "@contentful/forma-36-react-components@^3.89.3":
+"@contentful/forma-36-react-components@^3.79.5", "@contentful/forma-36-react-components@^3.89.3":
   version "3.89.3"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.89.3.tgz#252e31429cbecc1cede2179b671d82103a57379d"
   integrity sha512-rtBuWee21qdMvXofBkAdr3tSPrA7GJfB4BeJQKrnxYEtRuixbo9mHhcUIlxR6V/HRfgCLgIyfz12BNwiChciAw==
@@ -1977,7 +1993,7 @@
     react-transition-group "^2.4.0"
     truncate "^2.0.1"
 
-"@contentful/forma-36-tokens@^0.10.2":
+"@contentful/forma-36-tokens@^0.10.1", "@contentful/forma-36-tokens@^0.10.2":
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.10.2.tgz#a6f806e6e21f50dc38ff577762a4fb3f29352d67"
   integrity sha512-HHLwIN8mQv41GYxcTBYJjiDwpmmWwbcIRV09ciSDxhciYJ+wQkIurQ2lmnKHebPwv35X6fHXB4OdSTK1d9mUug==
