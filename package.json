@@ -29,7 +29,7 @@
     "@contentful/forma-36-fcss": "^0.3.2",
     "@contentful/forma-36-react-components": "^3.89.4",
     "@contentful/forma-36-tokens": "^0.10.2",
-    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
     "@types/jest": "^26.0.23",
