@@ -4455,10 +4455,10 @@ content-type@~1.0.4:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
-contentful-ui-extensions-sdk@^3.37.0:
-  version "3.37.0"
-  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-3.37.0.tgz#757b95740b3715037818804c43152ca8bb4d3495"
-  integrity sha512-5SSxTuyR7qwkqndURN36ycNyOzKq+viM1z91cn/L6I7Ji2+fAyUz8SQhycrZb4tBmymlFx2i5Le2nPELqaqH/w==
+contentful-ui-extensions-sdk@^3.38.0:
+  version "3.38.0"
+  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-3.38.0.tgz#67987e5b25f26176d24ce8b937985887090b1096"
+  integrity sha512-U1ymvZy49PHuvRBnDMw+PesaZM30DdpsHImW7hh53rXFVwTb9KYTsW0kbLAiYxWLVZfrXrj/9WmOTeHyKRtcLA==
 
 convert-source-map@1.7.0, convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
