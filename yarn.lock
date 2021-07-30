@@ -1931,24 +1931,24 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-shared@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.21.0.tgz#eb9a0aed172aa8d15449549e1d83484355d68203"
-  integrity sha512-XYVgEzsE8CouWZ/WUsIfJxlcRkBxeQKHfPomPWakpK80cAzqjgJMtk5nMFWQiEg50ytHmTgKoYpU+U8AbeTqgw==
+"@contentful/field-editor-shared@^0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.22.0.tgz#7c675c73bb3f4977fb3064eaef4af45ef675efa4"
+  integrity sha512-PJLcisKSDkN/1BqfuAhUoPkf3ncFtiU+pkL0O+QnlqojG1QlKg8hMua0AfLCCPaP2OLzJfHzioCN6QkPNqUvQQ==
   dependencies:
-    "@contentful/forma-36-tokens" "^0.10.2"
+    "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-single-line@^0.14.6":
-  version "0.14.6"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.14.6.tgz#9e2b78aa0c7537e6024241b40d9a856e4613ec6d"
-  integrity sha512-FYo47EDPFq8K8kBAh64CSbyXkFUOtAb1LQV1Aax53Ow4/hqY0zoGKggqX2QoHCLrpdOwTHucHm422/4+H5VNaA==
+"@contentful/field-editor-single-line@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.15.1.tgz#e1ad80df6ca5e5ca9ecb6366da30fe834df978d5"
+  integrity sha512-tfpgJ6R2jUs+S39ely7ZvK53NNQDg/zZbHWf9d9EV3CrcK2aYRmuQ5ie8UocJyOMgljVOB7wKHQYzdAz+0qrvw==
   dependencies:
-    "@contentful/field-editor-shared" "^0.21.0"
-    "@contentful/forma-36-react-components" "^3.79.5"
-    "@contentful/forma-36-tokens" "^0.10.1"
+    "@contentful/field-editor-shared" "^0.22.0"
+    "@contentful/forma-36-react-components" "^3.93.4"
+    "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
@@ -1973,7 +1973,7 @@
   dependencies:
     "@contentful/forma-36-tokens" "^0.11.0"
 
-"@contentful/forma-36-react-components@^3.79.5", "@contentful/forma-36-react-components@^3.93.5":
+"@contentful/forma-36-react-components@^3.93.4", "@contentful/forma-36-react-components@^3.93.5":
   version "3.93.5"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.93.5.tgz#2443b02fd52dd7578c0fcac764235cf4a8cd5d54"
   integrity sha512-Oi3JetsK+utH9WBBstJz2FQoYLPYE6ziRSp+LAroDh2kFyikihwVj1WE66jUMWS3sifU0TxrcQ97mPJBYGS71w==
@@ -1992,7 +1992,7 @@
     react-transition-group "^4.4.2"
     truncate "^2.0.1"
 
-"@contentful/forma-36-tokens@^0.10.1", "@contentful/forma-36-tokens@^0.10.2":
+"@contentful/forma-36-tokens@^0.10.1":
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.10.2.tgz#a6f806e6e21f50dc38ff577762a4fb3f29352d67"
   integrity sha512-HHLwIN8mQv41GYxcTBYJjiDwpmmWwbcIRV09ciSDxhciYJ+wQkIurQ2lmnKHebPwv35X6fHXB4OdSTK1d9mUug==
