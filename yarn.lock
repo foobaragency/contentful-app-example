@@ -1966,12 +1966,12 @@
     lodash-es "^4.17.15"
     mitt "2.1.0"
 
-"@contentful/forma-36-fcss@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@contentful/forma-36-fcss/-/forma-36-fcss-0.3.3.tgz#ea0a11a5c3fea05f99d93113cda27b9e279828f2"
-  integrity sha512-QvXbGLAWPiohMQNzcUB1sMGbc02G0v+tod/iMgiQQQnTQh9ovlgmkENG9XFY2aOhLJGIeS1GDRN1/sU8XwyBfg==
+"@contentful/forma-36-fcss@^0.3.3", "@contentful/forma-36-fcss@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-fcss/-/forma-36-fcss-0.3.4.tgz#eab17b9bac980aa6658259504631269017c27cd9"
+  integrity sha512-oKIi2RcaAtrx0pKnWnEc0qeUsPFxYOsVOCAAZssY8LOYkuXR7PnNkLnBGay4iabALEUBUUnPpj5UMPL6jBRZtg==
   dependencies:
-    "@contentful/forma-36-tokens" "^0.11.0"
+    "@contentful/forma-36-tokens" "^0.11.1"
 
 "@contentful/forma-36-react-components@^3.93.4", "@contentful/forma-36-react-components@^3.95.1":
   version "3.95.1"
