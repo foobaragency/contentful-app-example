@@ -1931,22 +1931,22 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-shared@^0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.22.0.tgz#7c675c73bb3f4977fb3064eaef4af45ef675efa4"
-  integrity sha512-PJLcisKSDkN/1BqfuAhUoPkf3ncFtiU+pkL0O+QnlqojG1QlKg8hMua0AfLCCPaP2OLzJfHzioCN6QkPNqUvQQ==
+"@contentful/field-editor-shared@^0.22.1":
+  version "0.22.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.22.1.tgz#ad7437faf111f963009867fb16e07f1754784a42"
+  integrity sha512-ocEgDg3yfoUBM7swTgPRAdlsqOufOmjvNkMiQP8TnVRvE4+gzWjH5M0jsOzkqTeQ1TB66sBww5MlSGkhTzh8WA==
   dependencies:
     "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-single-line@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.15.1.tgz#e1ad80df6ca5e5ca9ecb6366da30fe834df978d5"
-  integrity sha512-tfpgJ6R2jUs+S39ely7ZvK53NNQDg/zZbHWf9d9EV3CrcK2aYRmuQ5ie8UocJyOMgljVOB7wKHQYzdAz+0qrvw==
+"@contentful/field-editor-single-line@^0.15.2":
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.15.2.tgz#503780326edc2db34e897a556d58f639575755ad"
+  integrity sha512-EHv6fYJbs0rw1BYrTRnEAWVuSYurTfvgXGQfuf1x8hCsRMBwJi+Bg1Asns/tWPkDXlnPCazLWmX08lJXBYO2BA==
   dependencies:
-    "@contentful/field-editor-shared" "^0.22.0"
+    "@contentful/field-editor-shared" "^0.22.1"
     "@contentful/forma-36-react-components" "^3.93.4"
     "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
