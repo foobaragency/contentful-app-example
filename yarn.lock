@@ -1966,10 +1966,10 @@
   dependencies:
     "@contentful/forma-36-tokens" "^0.11.1"
 
-"@contentful/forma-36-react-components@^3.93.4", "@contentful/forma-36-react-components@^3.98.2":
-  version "3.98.2"
-  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.98.2.tgz#951044aa3438d78e94a7181b01562804bb07b854"
-  integrity sha512-QWOJE6tH4rJsfpPbzYNoe+FaXwpqYsQKcDui/ZiyfAkxV+76cJcc/jG8BSKy2AboAgjhRcEwZ446Af/1VDE/dw==
+"@contentful/forma-36-react-components@^3.93.4", "@contentful/forma-36-react-components@^3.98.3":
+  version "3.98.3"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.98.3.tgz#7cd71b9ac87e78093a08a83c5e360a0f51f711ba"
+  integrity sha512-ddmBZZL9TqeykmfL0woWLp2ff5qD6q3FJkhBOgzWSQccoFtmurlyrSwQNANyFLE1V+n4BlcfwD42aFEbYDRn+A==
   dependencies:
     "@babel/runtime" "^7.3.4"
     "@contentful/forma-36-fcss" "^0.3.4"
