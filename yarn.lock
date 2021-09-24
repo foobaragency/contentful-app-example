@@ -1925,12 +1925,22 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-single-line@^0.15.3":
-  version "0.15.3"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.15.3.tgz#131a56107a8293469e2dd1fbf9d9975d195405c3"
-  integrity sha512-Bn/65qL6+Cv5LGfhlbou/GyZZVt7RKtK7W+O84MiacdDOmXK9f2F4djIiT1BCVPHEV2ZE1RxUc7du/2uhXD8DQ==
+"@contentful/field-editor-shared@^0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.24.0.tgz#9a53f2c40d57e23af96b67bb831aafa67071819a"
+  integrity sha512-OWNmRhOKwG5EEtS04EUhC0Y242m/suuuCX7oMq9JGo1cTuEoEAOWWzSySiZNH7NO7OheBjpIt5vcIommxQ9TCg==
   dependencies:
-    "@contentful/field-editor-shared" "^0.23.0"
+    "@contentful/forma-36-tokens" "^0.11.0"
+    emotion "^10.0.17"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
+
+"@contentful/field-editor-single-line@^0.15.4":
+  version "0.15.4"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-0.15.4.tgz#71d869d73394a4b5931f100c66255c123c082d12"
+  integrity sha512-nNs9SC4vk/KbEiRVxi7APoICpYJWf03VLkh/kDOV9bU5SfOyNTiEOWBQ649B0r5tJuUVqQA2tmTddDmqKeCnlg==
+  dependencies:
+    "@contentful/field-editor-shared" "^0.24.0"
     "@contentful/forma-36-react-components" "^3.93.4"
     "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
