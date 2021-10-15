@@ -1915,10 +1915,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@contentful/field-editor-shared@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.25.0.tgz#0a6c52ce117a0336cb00a613b4019b8039c12216"
-  integrity sha512-+2dZlfhshfvlv8IRMDZAHhywwa4zwDNZvCxAmKInRDR0gnh3DGB4y2m/eIH/kTwl7F4Wfy5injZfCqeDtzr2+Q==
+"@contentful/field-editor-shared@^0.25.0", "@contentful/field-editor-shared@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-0.25.1.tgz#9f2454237a777a4991a4e3e51733d8fa696ae0ed"
+  integrity sha512-C5xVR2+MfjRT156Nym6nQ9t0DEujrJIKFNbMw4I3Eo3QvFWwLPdDVfxDZLvoM2CM87AOIOwHRVXl/tYKwSqz/w==
   dependencies:
     "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
@@ -1937,12 +1937,12 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-test-utils@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-0.18.0.tgz#eae46bdaffff0c86693b821c8588f3c1aad5dd57"
-  integrity sha512-N/avO3icwWWqMFGZlSUUt6hVctrTQDRBYCWWhPQGyvTv7Y/t3T+CePnt//rMywRIpWfjC7iqoTyBEXIIfiZgVw==
+"@contentful/field-editor-test-utils@^0.18.1":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-0.18.1.tgz#f347b790c86200f0e85f2303b672e6a134bbd0eb"
+  integrity sha512-sGYGrdFr6DAowQ4HpSd6gFcWLf/C0YXgmuIf+uzDwYaZTxQz8UPdeR6tDUUcPIOkN9/nKEwJ5iikB5/nyuCJ1g==
   dependencies:
-    "@contentful/field-editor-shared" "^0.25.0"
+    "@contentful/field-editor-shared" "^0.25.1"
     "@contentful/forma-36-tokens" "^0.11.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
