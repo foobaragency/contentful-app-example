@@ -35,7 +35,7 @@
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.0",
     "@types/react": "^17.0.30",
-    "@types/react-dom": "^17.0.9",
+    "@types/react-dom": "^17.0.10",
     "color": "^4.0.1",
     "contentful-ui-extensions-sdk": "^3.42.0",
     "cross-env": "^7.0.3",
