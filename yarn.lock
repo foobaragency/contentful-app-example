@@ -1915,87 +1915,87 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@contentful/f36-button@4.0.1-beta.2489+f0bddc02":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-button/-/f36-button-4.0.1-beta.2489.tgz#5474fffd1e4b3a51d8bcfdafd0d6b924d251773c"
-  integrity sha512-gUKTMIr1TIWXoViEvdI3D6mPHViX/Hh4sFdP7IdPho+maFt0MsKCbNVodNjod3AoPdrBTrTmNhS7+6b8zvJiOQ==
+"@contentful/f36-button@4.0.1-beta.2527+4331d70d":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-button/-/f36-button-4.0.1-beta.2527.tgz#10558ff3e88f790b1853854ab89f6fa2ae256b4f"
+  integrity sha512-njqo5XykvfAAxhG+rCS9VEDaxl1mfpOf1jy8W7YXCRyjl9M0BF+4S8JsOy5le06c7gLJOwjkzX4YFWkQraMGMQ==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-core" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-spinner" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-core" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-spinner" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
     emotion "^10.0.17"
 
-"@contentful/f36-core@4.0.1-beta.2489+f0bddc02":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-core/-/f36-core-4.0.1-beta.2489.tgz#c602b8e666041df44828e65331bc5307b8f28349"
-  integrity sha512-N6YvUVqsspm2seoOuiDRiAG7TFJrz8RZZSjYQOTA9S23hlfR6QO5yO652Dk4AmIx9QjMZ34/JkQf/MFW7qpZow==
+"@contentful/f36-core@4.0.1-beta.2527+4331d70d":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-core/-/f36-core-4.0.1-beta.2527.tgz#7cb2d7fecd4cfc48a2692da377ed89f5b5cd3c30"
+  integrity sha512-72D7WTRGxRbg7h6Cbg0qpuLkMeg0NR95ORnD8dUQn5dB1x8rVpcqD8ZRLQ7f9pbZ8ew2kXcr6BQvCEF0RepYXA==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
     "@emotion/core" "^10.1.1"
     "@emotion/is-prop-valid" "^1.1.0"
     emotion "^10.0.17"
     emotion-normalize "^10.1.0"
 
-"@contentful/f36-icon@4.0.1-beta.2489+f0bddc02":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-icon/-/f36-icon-4.0.1-beta.2489.tgz#bce78d83caac08ef21413ff955026132e69cbf24"
-  integrity sha512-Gasuzjgv1QVbKYBsK7sTKMjV0WHSEFUVg6ki4feq3BQ/I/s7el48x3IPjBYs3StzGaIREC0i2YVf0+xfWLAQ7A==
+"@contentful/f36-icon@4.0.1-beta.2527+4331d70d":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-icon/-/f36-icon-4.0.1-beta.2527.tgz#bfdffdd2de14155be3a8b0ca80d951f9ec19f501"
+  integrity sha512-/EuvtLM3MW/qqrukmkk86mCIbIbjRJE7ZmcEf3sd9qRntLW9gxQk3vzDooYw7ZeYF5vaTSeZWtKFe/hOf7HypA==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-core" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-core" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
     emotion "^10.0.17"
 
-"@contentful/f36-icons@4.0.1-beta.2489+f0bddc02":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-icons/-/f36-icons-4.0.1-beta.2489.tgz#1368ebbf74e2559240e3c465c1501592825d327f"
-  integrity sha512-Fg9HKm35NKv3b+uWfZXIiahHtOdhP0DY1Aoznu3Dkru4T65ih1/FbIYKKygBbiDPzYnDaSg7dbOTJ6/J7x63mQ==
+"@contentful/f36-icons@4.0.1-beta.2527+4331d70d":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-icons/-/f36-icons-4.0.1-beta.2527.tgz#d8ac8e0ff964d8ac511840fb96185ed6b5d1791a"
+  integrity sha512-5IzGv1MqCSss2gP2uv3TwD6ItA3TWJaGUifmGyzHMEhM1Yhl4oAxu4aC5lV4QOE2GQhufVkTQnOwszX2lF6M4g==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-core" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-icon" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-core" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-icon" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
     emotion "^10.0.17"
 
-"@contentful/f36-note@beta":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-note/-/f36-note-4.0.1-beta.2489.tgz#b112a3b4c67c0d59ab977e093b51f1b17c586bd6"
-  integrity sha512-8kWZNslkMPHAqj54CJgPuWl7xgfV0Ao69QQk4Iaz8vson/A8bmmiMWtwnUpusA6X0hXo+4/Usrlqi5Jokwf9RA==
+"@contentful/f36-note@^4.0.1-beta.2527":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-note/-/f36-note-4.0.1-beta.2527.tgz#f6d64622665fdcc80692798bdd47f377fa12436c"
+  integrity sha512-CZfGh3jhEJKaRGwT0OEpXWR+mYo3cJYq14kZ0c+VRDAy/gdVZSqoBXX8AoOTdqEfEEnYlxQynFTiFxHpriFeog==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-button" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-core" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-icon" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-icons" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-typography" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-button" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-core" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-icon" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-icons" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-typography" "4.0.1-beta.2527+4331d70d"
     emotion "^10.0.17"
 
-"@contentful/f36-spinner@4.0.1-beta.2489+f0bddc02":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-spinner/-/f36-spinner-4.0.1-beta.2489.tgz#ac6ec5e7c6c6461fe0e7d276b0cbb1182e6ff430"
-  integrity sha512-KiYEY6soUxn/9CR1oJkURV3Iykq8M59HS5UKN8oXly/xvUmp3NE89cumE7gexKXEbYmdFzMUHJ5cvgiuaFhmdw==
+"@contentful/f36-spinner@4.0.1-beta.2527+4331d70d":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-spinner/-/f36-spinner-4.0.1-beta.2527.tgz#20b624d450464b1dcb755c5a10140d7cd4cb8217"
+  integrity sha512-CVqIYbGCIccU7KREOw63v4Uh7TCNGui+4ubKSG9wFr1LuDeIdSRnQ4LDhComgMzxQbUAfX9EvmmpYB+0ETivlw==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-core" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-core" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
     emotion "^10.0.17"
 
-"@contentful/f36-tokens@4.0.1-beta.2489+f0bddc02", "@contentful/f36-tokens@beta":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-tokens/-/f36-tokens-4.0.1-beta.2489.tgz#5fd0d4c6ec03dbe6c1912028eb6e4dfa34c09bea"
-  integrity sha512-gCDXO7MScoO0bv9VWBhlKQpXmh9gEstETU5YFw34J42Y819awq0bKnn/wYZ/C8IaiBgz/6suVlXbLQHDH0SZ3Q==
+"@contentful/f36-tokens@4.0.1-beta.2527+4331d70d", "@contentful/f36-tokens@^4.0.1-beta.2527":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-tokens/-/f36-tokens-4.0.1-beta.2527.tgz#56be287445cc93c209a08487631166469ade8117"
+  integrity sha512-2t/e5auIVjFT0JGynLyfyqpHxPWZMRBtI9RTgPnW66Z5sH3+FcT2xFjeOedHOJwtHq/2H1qZGoyCF49/OgwNiA==
 
-"@contentful/f36-typography@4.0.1-beta.2489+f0bddc02":
-  version "4.0.1-beta.2489"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-typography/-/f36-typography-4.0.1-beta.2489.tgz#5d45308d38a7331fa2226f898f1f4253cb35404f"
-  integrity sha512-BRl/M+Zt/BeUsAL45sWJGzHU5JgFhxD58w8a9Sp+aoku+cBV1Stw675BLM8exwcVHR6WlnMngsonxD8uj/q9mg==
+"@contentful/f36-typography@4.0.1-beta.2527+4331d70d":
+  version "4.0.1-beta.2527"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-typography/-/f36-typography-4.0.1-beta.2527.tgz#173db043a75a97204d530f4eb73be5394ecd959b"
+  integrity sha512-o/8RhP+ktnKmEVAbCJyAQ6U7XMRb/+oybPC4H8YPX/YWMbeCVRWx8vTMFPyAatjTzhilBQWN+2eISFfkLrehLA==
   dependencies:
     "@babel/runtime" "^7.6.2"
-    "@contentful/f36-core" "4.0.1-beta.2489+f0bddc02"
-    "@contentful/f36-tokens" "4.0.1-beta.2489+f0bddc02"
+    "@contentful/f36-core" "4.0.1-beta.2527+4331d70d"
+    "@contentful/f36-tokens" "4.0.1-beta.2527+4331d70d"
     emotion "^10.0.17"
 
 "@contentful/field-editor-shared@^0.25.1":
@@ -2008,13 +2008,13 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-shared@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.0.0.tgz#6be0b244174adc6896fbefda258868f5f47c52f9"
-  integrity sha512-2QmQcnHInkJiI5OeiNcOdtrvzIvAhlPmYdUQCPIyRRtUSx3TlEggyc9rGVan29pahNhQtk2JzEeM6aUhs2pSPA==
+"@contentful/field-editor-shared@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.0.1.tgz#e01baafe492acdd2a8a3828bb5f969d9fd1e857d"
+  integrity sha512-1KUlIiO0kk5C+1gDzAu9/6Cr9JGExjRzYwM7DL8VsjpaF0Xs8oZUhFGYNtRXPxzI/Q8pxJpHlIpyuQEwLogmNw==
   dependencies:
-    "@contentful/f36-note" beta
-    "@contentful/f36-tokens" beta
+    "@contentful/f36-note" "^4.0.1-beta.2527"
+    "@contentful/f36-tokens" "^4.0.1-beta.2527"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
@@ -2031,13 +2031,13 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.0.0.tgz#3e51350255dfa07947005fcdb5a0691bcaeb7a77"
-  integrity sha512-mmQCHd2z4TBfIOrj0us8Wdov9XE6SmiLOgwb4ypSyDN3sBIlJLtra989XsiKRpy6zjg2jJRtcXMRf9OLuCuibA==
+"@contentful/field-editor-test-utils@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.0.1.tgz#b1d3c63230295dd490d662ecfb1f6a40e00c8ec3"
+  integrity sha512-Ctw54oQktIu3hUTAKfFMHfRm0iRTqPIrvfP5zK40opU2IsMeRdWP7gSx1JByHGtoiw3tOiBf2Ahp5htWfGlJ+w==
   dependencies:
-    "@contentful/f36-tokens" beta
-    "@contentful/field-editor-shared" "^1.0.0"
+    "@contentful/f36-tokens" "^4.0.1-beta.2527"
+    "@contentful/field-editor-shared" "^1.0.1"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
