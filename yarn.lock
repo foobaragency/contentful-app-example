@@ -2460,21 +2460,21 @@
     lodash-es "^4.17.15"
     mitt "2.1.0"
 
-"@contentful/forma-36-fcss@^0.3.4", "@contentful/forma-36-fcss@^0.3.5":
+"@contentful/forma-36-fcss@^0.3.5":
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-fcss/-/forma-36-fcss-0.3.5.tgz#e50a4e9ce6b472a0e836b9e9e306139a1d873a22"
   integrity sha512-bDfUIqvE94LhgefZfoMeGgxIaeOh6N12kW0P6hUKxnjkJYLWb3i14p1NOiV+dNUa3TGNYCsDar+3O31BlmtewQ==
   dependencies:
     "@contentful/forma-36-tokens" "^0.11.2"
 
-"@contentful/forma-36-react-components@^3.100.4":
-  version "3.100.4"
-  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.100.4.tgz#109d4a76062e297af480ca171fcdfc7e85a7f1e2"
-  integrity sha512-Gdp70R+QeACpm6JGmzBoLlk0WLBsggzms9dEG8qjwdvk3TGT73tHmk/kPuBYzWjZtKCSMpJOzYvWfshACFAiuA==
+"@contentful/forma-36-react-components@^3.100.5":
+  version "3.100.5"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.100.5.tgz#57241387ad4ac7bd7fbd2d0d8de8aa9bcfd61a45"
+  integrity sha512-/fnCulOU19S01Pp8mY6urMrF2s2z/NQs832Fiuy+E5n283ir0s7PV/O1YTL0GjD3/l0MEF3FCBypGq0UlXO5cA==
   dependencies:
     "@babel/runtime" "^7.3.4"
-    "@contentful/forma-36-fcss" "^0.3.4"
-    "@contentful/forma-36-tokens" "^0.11.1"
+    "@contentful/forma-36-fcss" "^0.3.5"
+    "@contentful/forma-36-tokens" "^0.11.2"
     "@popperjs/core" "^2.4.4"
     classnames "^2.2.6"
     csstype "^3.0.5"
@@ -2486,7 +2486,7 @@
     react-transition-group "^4.4.2"
     truncate "^3.0.0"
 
-"@contentful/forma-36-tokens@^0.11.1", "@contentful/forma-36-tokens@^0.11.2":
+"@contentful/forma-36-tokens@^0.11.2":
   version "0.11.2"
   resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.11.2.tgz#838663a93eae7d49caace8ae5ff2d0c27868e5c0"
   integrity sha512-qjhKZahSQWQl6spebKycVTZF7Cnf4DBPh6QMoyM6YFmtbFlNfVpz8eKaO/C0hiVaBCjeN7wX/Jl6fdG+IovCgw==
