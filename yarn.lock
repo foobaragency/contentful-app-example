@@ -2486,10 +2486,10 @@
     react-transition-group "^4.4.2"
     truncate "^3.0.0"
 
-"@contentful/forma-36-tokens@^0.11.1":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.11.1.tgz#0baafc1edaa3766fc471bf0073f1bcb9acb64e6b"
-  integrity sha512-VETMW/VV6Hzy1Jd3Q0evy3U5qmxDAqm/p0+B9Byo+N+PuNOgIuvB8U3+915TWT4BCJqxig0K/safJCEvwaZvAA==
+"@contentful/forma-36-tokens@^0.11.1", "@contentful/forma-36-tokens@^0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-tokens/-/forma-36-tokens-0.11.2.tgz#838663a93eae7d49caace8ae5ff2d0c27868e5c0"
+  integrity sha512-qjhKZahSQWQl6spebKycVTZF7Cnf4DBPh6QMoyM6YFmtbFlNfVpz8eKaO/C0hiVaBCjeN7wX/Jl6fdG+IovCgw==
 
 "@csstools/normalize.css@*":
   version "12.0.0"
