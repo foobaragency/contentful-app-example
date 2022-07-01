@@ -2467,22 +2467,22 @@
   dependencies:
     "@contentful/forma-36-tokens" "^0.11.2"
 
-"@contentful/forma-36-react-components@^3.100.6":
-  version "3.100.6"
-  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.100.6.tgz#5d50642f4afc9ec49f5998ab1212b50cfb124ab4"
-  integrity sha512-+Z22LgwaBPw0TFt3NpG7g2To9mFqFd6gYSm5bvlxUld/64Tb226BlEUp8vvkfakixXjI/NTglT1elwSPQpVI7g==
+"@contentful/forma-36-react-components@^3.100.7":
+  version "3.100.7"
+  resolved "https://registry.yarnpkg.com/@contentful/forma-36-react-components/-/forma-36-react-components-3.100.7.tgz#87c442c6062bc7d864d7ae74416033c85a74b22b"
+  integrity sha512-7Auf4s6HOueifKOntbhFO6MjNMFyqGGHv53gxQsxR4hK+JJrEGqn2O37KFfgCYMsmRWVJzbuNEzHp4O91vEsxg==
   dependencies:
     "@babel/runtime" "^7.3.4"
     "@contentful/forma-36-fcss" "^0.3.5"
     "@contentful/forma-36-tokens" "^0.11.2"
-    "@popperjs/core" "^2.4.4"
+    "@popperjs/core" "^2.11.5"
     classnames "^2.2.6"
     csstype "^3.0.5"
     dayjs "^1.9.1"
     react-animate-height "^2.0.7"
     react-copy-to-clipboard "^5.0.1"
     react-modal "^3.11.2"
-    react-popper "^2.2.3"
+    react-popper "^2.3.0"
     react-transition-group "^4.4.2"
     truncate "^3.0.0"
 
@@ -2842,10 +2842,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@popperjs/core@^2.4.4":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
-  integrity sha512-cPqjjzuFWNK3BSKLm0abspP0sp/IGOli4p5I5fKFAzdS8fvjdOwDCfZqAaIiXd9lPkOWi3SUUfZof3hEb7J/uw==
+"@popperjs/core@^2.11.5", "@popperjs/core@^2.4.4":
+  version "2.11.5"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
+  integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
 "@radix-ui/primitive@0.1.0":
   version "0.1.0"
@@ -9216,10 +9216,10 @@ react-modal@^3.11.2, react-modal@^3.14.3:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
-react-popper@^2.2.3:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-2.2.4.tgz#d2ad3d2474ac9f1abf93df3099d408e5aa6a2e22"
-  integrity sha512-NacOu4zWupdQjVXq02XpTD3yFPSfg5a7fex0wa3uGKVkFK7UN6LvVxgcb+xYr56UCuWiNPMH20tntdVdJRwYew==
+react-popper@^2.2.3, react-popper@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-2.3.0.tgz#17891c620e1320dce318bad9fede46a5f71c70ba"
+  integrity sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q==
   dependencies:
     react-fast-compare "^3.0.1"
     warning "^4.0.2"
