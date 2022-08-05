@@ -2436,10 +2436,10 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.1.4.tgz#a25d392e1abedaeb5216c3d4b651dc3a18552947"
-  integrity sha512-kGJvW1pBz+d//L51zjSHurF7UDN2RSGscF352a2SZiO6vlReQorKrJmhPCIgweGx3JlH2zl1EDLvz/w8DqsdZA==
+"@contentful/field-editor-single-line@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.1.6.tgz#ff7d2130e113e9bd3bc27bf7c4d6ff22eaadc291"
+  integrity sha512-/DrNlhBzyxUmQhe0Xq+0ihLs1C95YBbMDqwER8iC6bWhRC9WD14iRBcxaCPHCu+rBnQhQ539TR9iGnVZdPGgmw==
   dependencies:
     "@contentful/f36-components" "^4.0.27"
     "@contentful/f36-tokens" "^4.0.0"
