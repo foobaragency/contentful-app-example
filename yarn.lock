@@ -2448,10 +2448,10 @@
     lodash "^4.17.15"
     lodash-es "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.2.0.tgz#29ae42e833e35c0c9bb7c9215029f8249195f38f"
-  integrity sha512-PkMMXcRucFqz+tOHWBBHEt7DSa7yyo52otuHWqmLI3qTAt8GbgRPxi6kX/wObvfJ4ZNtKUpLajZz4X8v4gH8Kg==
+"@contentful/field-editor-test-utils@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.2.2.tgz#d355b4f762967ee5c023a85c584f1ce2d32ac828"
+  integrity sha512-54IB3dZN2ZFKArrRfBQeRx+9kc4L91P2CaaBfx4UblNV8jKvDf51qvoUUoxl+PYuESnMoSKxHvNtnP1ay8K3Iw==
   dependencies:
     "@contentful/f36-tokens" "^4.0.0"
     "@contentful/field-editor-shared" "^1.1.3"
