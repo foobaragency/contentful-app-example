@@ -2430,25 +2430,25 @@
     "@babel/runtime" "^7.6.2"
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.2.0.tgz#79b51d72fdad86115f45c63d3011ac3d9f15f28f"
-  integrity sha512-eFSnuvFre91Noq2Hais4Uqh05czN+a7KV6H9eNqTWw/Q/6G/LfHExbG+Z/0Yk51hMr15k4PB3wza7oYINb981Q==
+"@contentful/field-editor-shared@^1.2.0", "@contentful/field-editor-shared@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.3.0.tgz#305f7af6fb4885932b9be059841ecb908dfb7af5"
+  integrity sha512-sgHtfjCCp8ztXesK3H1NqwBCP6rglkD6dak1JZf85laAyUtmp/JMHXwGEgnBnLhH94CrAc9s3DPdz7RsdBR55A==
   dependencies:
     "@contentful/f36-note" "^4.2.8"
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
-    lodash-es "^4.17.15"
+    lodash-es "^4.17.21"
 
-"@contentful/field-editor-single-line@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.2.0.tgz#48c7c50af57f0c293049e8eb15f4d1fe6d2278d5"
-  integrity sha512-6sfcuJTnLcLpQi95KVYHouB6oRYMLXXzoxXfZkBcsRfm8cj0m9ra6puNRZS6MOH33zTe36sTc3rqbB+kCZ1h/Q==
+"@contentful/field-editor-single-line@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.0.tgz#a26a0a32e6e89f8964e868101aa9f92f0345c815"
+  integrity sha512-sySzBqgExtH3iQJ6uyyXngFKmCVegW7RnhYxnpbIpP0YWSh5wxsPhbMRUdoWh6T+86qGIbVKtG0dqDqVKUwUmw==
   dependencies:
     "@contentful/f36-components" "^4.0.27"
     "@contentful/f36-tokens" "^4.0.0"
-    "@contentful/field-editor-shared" "^1.2.0"
+    "@contentful/field-editor-shared" "^1.3.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
     lodash-es "^4.17.15"
@@ -7768,7 +7768,7 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash-es@^4.17.15:
+lodash-es@^4.17.15, lodash-es@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
