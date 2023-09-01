@@ -4764,10 +4764,10 @@ contentful-sdk-core@^7.0.1:
     p-throttle "^4.1.1"
     qs "^6.9.4"
 
-contentful-ui-extensions-sdk@^4.22.1:
-  version "4.22.1"
-  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.22.1.tgz#0d05787b96a2c8ae041ddc14cdc1a493d1b340d9"
-  integrity sha512-yOfbe5jxT2rinXzJcHWkPeu+gulfLhh8FUkWErZHd6BCHkk+7MPc2zxBxRV9rUDBFpwk2Eo0by4ecSRYweloCA==
+contentful-ui-extensions-sdk@^4.23.0:
+  version "4.23.0"
+  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.23.0.tgz#0ec6fdd63cd0482ad5f70a6fdc43529e4aa19a8d"
+  integrity sha512-cjN0SVHXBfHaJQVah/zwONGv8C8oQDkIvfUiW1Pf8TS8EdMJtu/zBZ/4VAWHW9yPP86q5Cd4+fe+TAmTkaeSTw==
   dependencies:
     contentful-management ">=7.30.0"
 
