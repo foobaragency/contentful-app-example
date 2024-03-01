@@ -2468,10 +2468,10 @@
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.4.6.tgz#f163079d6f59ac7f4b35635a9480ad1b833b8414"
-  integrity sha512-lvOv3Dj7dyHKWEjEphoPgLjtFDWyVLxRqcYAfmTCJaD1s51HUNk4vo4/Vc6NVxOXv9xmhGnCfIP31o0W57/N5A==
+"@contentful/field-editor-test-utils@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.4.7.tgz#6127a1322c91e7b7d3956972ee56794d82eceb6f"
+  integrity sha512-6tCrstjwizF/qcqK/BvDCNWDwx3bmbV6bvnlgTW/TASAqfGnwYsQa3WijlkwqVudMpHBAK51nGGOsuSHNkoCDQ==
   dependencies:
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
