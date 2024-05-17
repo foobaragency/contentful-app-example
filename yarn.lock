@@ -2447,24 +2447,24 @@
     "@babel/runtime" "^7.6.2"
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^1.4.8":
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.4.8.tgz#dd72d7683dbbb9a796f85575ba01321c88856549"
-  integrity sha512-1tY4fNkuVKccP4kaKsXCnyHzH/pIF843jqSfsaPVLecoD5gn8l63am14mOM1R9YLNql+VxfLFRYjoxt0te3LcQ==
+"@contentful/field-editor-shared@^1.4.9":
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-1.4.9.tgz#a08b0fdbc562f8e378298ac4080f4b98145ed9e2"
+  integrity sha512-B3iDG9s/DhSRaTx9eES9KiJxkvxrQchmCaSOdX1jO9E7ULSrglSmopiewjjCbKc28W6aEpMkQ2qfTYPcoMG5Ow==
   dependencies:
     "@contentful/f36-note" "^4.2.8"
     "@contentful/f36-tokens" "^4.0.0"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.3.10":
-  version "1.3.10"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.10.tgz#a390bd918b49f2ea17f022cf58fc945475d32853"
-  integrity sha512-wX3YaE1vRzPg2kADhw0m1Yt8ybghh7su9c75i/juKiWxxrDRmAT3a+SFngqm5kvAGEzzvwA4lQodLYR3NayvcQ==
+"@contentful/field-editor-single-line@^1.3.11":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.3.11.tgz#b8c6118bae08f8b9ba3471e3953ded1d63ac9b62"
+  integrity sha512-E/59Yl3ah7CSwLENAm4/0LdQPvx15lL03E4+XXfNWQZUlm9h/IVUBu73NiF46vHRNee7QhpX0+hXaQNTIgcM7Q==
   dependencies:
     "@contentful/f36-components" "^4.0.27"
     "@contentful/f36-tokens" "^4.0.0"
-    "@contentful/field-editor-shared" "^1.4.8"
+    "@contentful/field-editor-shared" "^1.4.9"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
