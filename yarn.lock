@@ -2492,7 +2492,7 @@
     "@contentful/f36-tokens" "^4.1.0"
     emotion "^10.0.17"
 
-"@contentful/f36-tokens@^4.0.0", "@contentful/f36-tokens@^4.0.1", "@contentful/f36-tokens@^4.0.5", "@contentful/f36-tokens@^4.1.0":
+"@contentful/f36-tokens@^4.0.1", "@contentful/f36-tokens@^4.0.5", "@contentful/f36-tokens@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@contentful/f36-tokens/-/f36-tokens-4.1.0.tgz#26a371209db4c9165e00a22cdc0a4c2098c56797"
   integrity sha512-8AFVDD1ZFMJ7ZsaBoFygNp8gX4unPSQMa/nGk2QUQpLwH6Z2pAPPd/lyF0s33ieM9bmsfBUlNQxau2K3dBhd+Q==
@@ -2551,12 +2551,12 @@
     emotion "^10.0.17"
     lodash "^4.17.15"
 
-"@contentful/field-editor-test-utils@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.5.1.tgz#14ece5e9d84227cdb603a83462884b020d72db53"
-  integrity sha512-j/z+bRLI6tktSUgQtjwH/LVBfPkHTVtZLCDaFOYkiA4HHWwwaAf0tDqLmG+L4yEZinxLfHfpgQms4QE5xATd9Q==
+"@contentful/field-editor-test-utils@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-test-utils/-/field-editor-test-utils-1.5.2.tgz#29d2bffde3779334a71ce237f8e1adf032af3559"
+  integrity sha512-11/ZFYyYr3fLlaQjjbzM21Zn7S7mljcTxKy4CdRghrgX/3DnamZ348Qu+hJQZed1/pE8P4ZkxAAQPtjPpyDzzg==
   dependencies:
-    "@contentful/f36-tokens" "^4.0.0"
+    "@contentful/f36-tokens" "^4.0.5"
     emotion "^10.0.17"
     lodash "^4.17.15"
     mitt "2.1.0"
