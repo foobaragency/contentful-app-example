@@ -4214,15 +4214,6 @@ axe-core@^4.3.5:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.3.5.tgz#78d6911ba317a8262bfee292aeafcc1e04b49cc5"
   integrity sha512-WKTW1+xAzhMS5dJsxWkliixlO/PqC4VhmO9T4juNYcaTg9jzWiJsou6m5pxWYGfigWbwzJWeFY6z47a+4neRXA==
 
-axios@^1.7.4:
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.7.tgz#2f554296f9892a72ac8d8e4c5b79c14a91d0a47f"
-  integrity sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==
-  dependencies:
-    follow-redirects "^1.15.6"
-    form-data "^4.0.0"
-    proxy-from-env "^1.1.0"
-
 axios@^1.7.9:
   version "1.7.9"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.9.tgz#d7d071380c132a24accda1b2cfc1535b79ec650a"
@@ -4938,36 +4929,15 @@ content-type@~1.0.5:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
-contentful-management@>=7.30.0:
-  version "11.35.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.35.1.tgz#0a99d3ea4b5ff7c0191bcf3a5f0bd0a99a2575db"
-  integrity sha512-PBOFpeOCzwx7+PQtHhgFRNB8wnlgUKUj+3rTucaMIYot5l9YA4804P9VYWq6Mg8/PJnFjavQrtay6HtqWDyYMw==
-  dependencies:
-    "@contentful/rich-text-types" "^16.6.1"
-    axios "^1.7.4"
-    contentful-sdk-core "^8.3.1"
-    fast-copy "^3.0.0"
-
-contentful-management@^11.41.0:
-  version "11.43.2"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.43.2.tgz#1fa876715fe76eded04d0e6142d886932683918c"
-  integrity sha512-l+yhTH/Fctp7v2uwWlALvht4EyA3eZbzPVN4WZBwBXPPqvP56xEZtJ6D1FOl6BnjJgnszlSpKoGw0piFrnI1LA==
+contentful-management@^11.41.0, contentful-management@^11.43.2:
+  version "11.45.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.45.1.tgz#0eb3c7d9b75c7f19d26fdda2fa4367df4ff4a939"
+  integrity sha512-Nvz80qfKFlaiOYCx5EdhXdZ7TKYlqOzV6hYSFWQDuChLDacHTLshiMH28ktcKntyUSVqQnZzVAOKN8jMM213Ag==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.7.9"
     contentful-sdk-core "^9.0.1"
     fast-copy "^3.0.0"
-
-contentful-sdk-core@^8.3.1:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-8.3.2.tgz#04807041633cc99b11065494389882185182afc5"
-  integrity sha512-L2LNWRXb1/5RLpLemCoP2Lzz6211xyE63GXh2nVXekvM4Dnswo+9N2D6JmWTne9zq89Izo88vOGAzzIAxb4Ukw==
-  dependencies:
-    fast-copy "^2.1.7"
-    lodash.isplainobject "^4.0.6"
-    lodash.isstring "^4.0.1"
-    p-throttle "^4.1.1"
-    qs "^6.11.2"
 
 contentful-sdk-core@^9.0.1:
   version "9.0.1"
@@ -4982,12 +4952,12 @@ contentful-sdk-core@^9.0.1:
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
-contentful-ui-extensions-sdk@^4.29.3:
-  version "4.29.3"
-  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.29.3.tgz#c1dda6ef260c639458d9bebca1ef4a7340f0e2ff"
-  integrity sha512-T5j+kyDlf9Jo8UdA8xz8EPk3ROwDogGHAzzOLx6fCJanQFACbSLKSQnShjHIRVKHIV4A4zQeTj5cargf4/B3EA==
+contentful-ui-extensions-sdk@^4.29.5:
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.29.5.tgz#c4ce1e4994686e7e9be82bcf501d07d95bf14af0"
+  integrity sha512-BQzYjEYGNQHcSAipgLClV4yfoqit5xX5V7r8rkbMhE5XpqQo7mWfUlkkhoWcc7kcuBJgSjFYe23x0eKfBg832A==
   dependencies:
-    contentful-management ">=7.30.0"
+    contentful-management "^11.43.2"
 
 convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
@@ -6306,11 +6276,6 @@ express@^4.17.1:
     type-is "~1.6.18"
     utils-merge "1.0.1"
     vary "~1.1.2"
-
-fast-copy@^2.1.7:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-2.1.7.tgz#affc9475cb4b555fb488572b2a44231d0c9fa39e"
-  integrity sha512-ozrGwyuCTAy7YgFCua8rmqmytECYk/JYAMXcswOcm0qvGoE3tPb7ivBeIHTOK2DiapBhDZgacIhzhQIKU5TCfA==
 
 fast-copy@^3.0.0:
   version "3.0.1"
@@ -8229,16 +8194,6 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
-lodash.isplainobject@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
-  integrity sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==
-
-lodash.isstring@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
-  integrity sha512-0wJxfxH1wgO3GrbuP+dTTk7op+6L41QCXbGINEmD+ny/G/eCqGzxyCsh7159S+mgDDcoarnBw6PC1PS5+wUGgw==
-
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -8840,11 +8795,6 @@ p-retry@^4.5.0:
   dependencies:
     "@types/retry" "^0.12.0"
     retry "^0.13.1"
-
-p-throttle@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-4.1.1.tgz#80b1fbd358af40a8bfa1667f9dc8b72b714ad692"
-  integrity sha512-TuU8Ato+pRTPJoDzYD4s7ocJYcNSEZRvlxoq3hcPI2kZDZ49IQ1Wkj7/gDJc3X7XiEAAvRGtDzdXJI0tC3IL1g==
 
 p-throttle@^6.1.0:
   version "6.2.0"
@@ -9665,7 +9615,7 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@6.13.0, qs@^6.11.2:
+qs@6.13.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.13.0.tgz#6ca3bd58439f7e245655798997787b0d88a51906"
   integrity sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==
