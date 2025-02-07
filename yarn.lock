@@ -2527,27 +2527,27 @@
   dependencies:
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-2.3.1.tgz#0cdd1ccc8141a23e9037584f32e09e07bd3fc8df"
-  integrity sha512-apLEhepNINNaVe2jsR6kVGVyDAgiq3Pv7JnF9WKs8jVGjNdh1Gvskoha8ZPFXWVtK8MhzhU3Z8LeUaWnyo9+hA==
+"@contentful/field-editor-shared@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-2.3.2.tgz#97079abfda05bb1a47d0545edc1eb4827bc626c5"
+  integrity sha512-WsqsYlIn5j6ZhzIW7+9bdsj4HGy0jSG+F4ytf8vfoyuzr1Aqa5qJTV/HR2OhscVUuyYOgwlZq3VZ+0ZcVg90+Q==
   dependencies:
     "@contentful/f36-components" "^4.70.0"
     "@contentful/f36-note" "^4.70.0"
     "@contentful/f36-tokens" "^4.0.5"
-    contentful-management "^11.41.0"
+    contentful-management "^11.45.1"
     emotion "^10.0.17"
     fast-deep-equal "^3.1.3"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.5.2.tgz#a326be702a5c48693e399bdbee7c7565c88a35d4"
-  integrity sha512-UicnoY7FwSRjd/A41MODOP4nn5DeND00Bq77m6jLNAym0nvY3L6MH4x0yHZ+hHYXI4rj8zVWY5ZOU70sBmuPcw==
+"@contentful/field-editor-single-line@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.5.3.tgz#9a453fe8b678e0d1ed683bb3ffbb3ec9aed5c878"
+  integrity sha512-uHc9Hzq0Dx0dWIsxOcPE9jsgAKX09w3CQWqTW/TAmjhiZWooRX5AO+EJG9XbNHuBa936oHqzwK0HN4f95uRLug==
   dependencies:
     "@contentful/f36-components" "^4.70.0"
     "@contentful/f36-tokens" "^4.0.5"
-    "@contentful/field-editor-shared" "^2.3.1"
+    "@contentful/field-editor-shared" "^2.3.2"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
@@ -4929,10 +4929,20 @@ content-type@~1.0.5:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
-contentful-management@^11.41.0, contentful-management@^11.43.2:
+contentful-management@^11.43.2:
   version "11.45.1"
   resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.45.1.tgz#0eb3c7d9b75c7f19d26fdda2fa4367df4ff4a939"
   integrity sha512-Nvz80qfKFlaiOYCx5EdhXdZ7TKYlqOzV6hYSFWQDuChLDacHTLshiMH28ktcKntyUSVqQnZzVAOKN8jMM213Ag==
+  dependencies:
+    "@contentful/rich-text-types" "^16.6.1"
+    axios "^1.7.9"
+    contentful-sdk-core "^9.0.1"
+    fast-copy "^3.0.0"
+
+contentful-management@^11.45.1:
+  version "11.47.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.47.1.tgz#97560fe1cb1237cd858160cf5d6fed6342725d51"
+  integrity sha512-4GvWNBSHnwx7kjrckFo55s/7s/81gcrNtlIU0SbAyfqXRxyduSq4X6Cz6HccTYocsqifY3qYk2xu2vVFCJtncA==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.7.9"
