@@ -36,7 +36,7 @@
     "@types/node": "^22.13.4",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
-    "color": "^4.2.3",
+    "color": "^5.0.0",
     "contentful-ui-extensions-sdk": "^4.29.5",
     "cross-env": "^7.0.3",
     "react": "^17.0.2",
