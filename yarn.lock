@@ -2540,10 +2540,10 @@
     fast-deep-equal "^3.1.3"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.5.5.tgz#6e246be2b42b3bd8c7827693091996348c351484"
-  integrity sha512-F0eGXa0YlXwNsTnOhdm+XVAkPCQZYL8lcOEy5mxZ5qmpspvoU0Gr0KpeW65M/VoizIutcqsI1SAAqdKDr5Dk2g==
+"@contentful/field-editor-single-line@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.6.0.tgz#1b9e20e66d8d68778b7d79d73c78126297013371"
+  integrity sha512-nyYsvq67xyCiatksmN53KcuOQRLPan6kRXyZbwoNaV/+3s6ql8Dk/9y3kuFm5b80WPOXtr0C68xw1l626PqqOw==
   dependencies:
     "@contentful/f36-components" "^4.70.0"
     "@contentful/f36-tokens" "^4.0.5"
