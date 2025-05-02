@@ -2527,10 +2527,10 @@
   dependencies:
     emotion "^10.0.17"
 
-"@contentful/field-editor-shared@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-2.4.1.tgz#252a0c294b59c38b1bbb97c1e7219b20b05bdf87"
-  integrity sha512-rI0pKDD6FLN+dGhouSVPSZUNghS21UZwlIrCS8X52FjPsw6NabCp/kt6j1Cunp/vrpZKKsp+Kbq+dFJsZTF8WA==
+"@contentful/field-editor-shared@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-shared/-/field-editor-shared-2.4.2.tgz#536e478f7ced699c6a5a6a6c599abbc47ee15cb5"
+  integrity sha512-Ook5J0CmllI82wnJRgDWJ654du1PlOMGpEMnRfPto8DXze3IgpRoXfqlQVxaIQcYVtY2pXr52PdPCeIDk8pdzA==
   dependencies:
     "@contentful/f36-components" "^4.70.0"
     "@contentful/f36-note" "^4.70.0"
@@ -2540,14 +2540,14 @@
     fast-deep-equal "^3.1.3"
     lodash "^4.17.15"
 
-"@contentful/field-editor-single-line@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.6.0.tgz#1b9e20e66d8d68778b7d79d73c78126297013371"
-  integrity sha512-nyYsvq67xyCiatksmN53KcuOQRLPan6kRXyZbwoNaV/+3s6ql8Dk/9y3kuFm5b80WPOXtr0C68xw1l626PqqOw==
+"@contentful/field-editor-single-line@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@contentful/field-editor-single-line/-/field-editor-single-line-1.6.1.tgz#59f4d334095149c4ceb57aa5afc8124e6dc28651"
+  integrity sha512-lke5cfWbkK4keDvX4AF8Ij6RUlPKGjNwrH2j34DTL+gpUM/kVqH3Dj6FSC/pklGgv9vAuYSEWynnm8rfpBCVJw==
   dependencies:
     "@contentful/f36-components" "^4.70.0"
     "@contentful/f36-tokens" "^4.0.5"
-    "@contentful/field-editor-shared" "^2.4.1"
+    "@contentful/field-editor-shared" "^2.4.2"
     emotion "^10.0.17"
     lodash "^4.17.15"
 
