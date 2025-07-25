@@ -4964,10 +4964,10 @@ contentful-sdk-core@^9.0.1:
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
-contentful-ui-extensions-sdk@^4.32.0:
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.32.0.tgz#c2bc8f5648b36bd75b675005f9ae3e3134d71469"
-  integrity sha512-lAgeEFYU5OLS9ENGd8R7DEAf162mpLk95zGC8EZ8MUQbtfaa4Fna6Tm6s0Xh30pKWuAjbW8OTg6Nadw3mkuQWg==
+contentful-ui-extensions-sdk@^4.34.0:
+  version "4.34.0"
+  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.34.0.tgz#c0fbdc61957fdc60b74b1a7e668ad976034f76db"
+  integrity sha512-yKtyjWDYWt/fVETGxjfF80bOlPpB10wOtW6zIkYwvv4Ndyh4JtrROIAAfe4/XuQAjBDX3+Zv1vmuKugbpd44OA==
   dependencies:
     contentful-management "^11.52.1"
 
