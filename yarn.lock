@@ -4222,10 +4222,10 @@ axe-core@^4.3.5:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.3.5.tgz#78d6911ba317a8262bfee292aeafcc1e04b49cc5"
   integrity sha512-WKTW1+xAzhMS5dJsxWkliixlO/PqC4VhmO9T4juNYcaTg9jzWiJsou6m5pxWYGfigWbwzJWeFY6z47a+4neRXA==
 
-axios@^1.11.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.12.0.tgz#11248459be05a5ee493485628fa0e4323d0abfc3"
-  integrity sha512-oXTDccv8PcfjZmPGlWsPSwtOJCZ/b6W5jAMCNcfwJbCzDckwG0jrYJFaWH1yvivfCXjVzV/SPDEhMB3Q+DSurg==
+axios@^1.12.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.2.tgz#9ada120b7b5ab24509553ec3e40123521117f687"
+  integrity sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.4"
@@ -4940,13 +4940,13 @@ content-type@~1.0.5:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
-contentful-management@^11.45.1, contentful-management@^11.57.1:
-  version "11.58.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.58.0.tgz#767cdb70e2028e1efdf8e027bb9330d606d1649b"
-  integrity sha512-17rqukaUE/dhbbNLNlt/SvJv74M7D2lRN6d+63EShIGAkdKaCROomfUV3aFB+chPKcqNuEgnxz7Lj78bBMCVBw==
+contentful-management@^11.45.1, contentful-management@^11.60.2:
+  version "11.63.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.63.1.tgz#033f4f49b7c8af88901ba2918e9b586c6e808283"
+  integrity sha512-2EKvO3aP6XkUuGSg6yoCUBF2RyFiG++duDZhEj5BLzlcBGbeRY1Q7FjcRUicg7wjiPmIKKOpsH08XPQHiCSBGw==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
-    axios "^1.11.0"
+    axios "^1.12.2"
     contentful-sdk-core "^9.0.1"
     fast-copy "^3.0.0"
     globals "^15.15.0"
@@ -4964,12 +4964,12 @@ contentful-sdk-core@^9.0.1:
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
-contentful-ui-extensions-sdk@^4.45.0:
-  version "4.45.0"
-  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.45.0.tgz#8e514122815bcaf78c701f46294b262c3a1178be"
-  integrity sha512-0qYXRhA9NaOU0BpkGHkuKv3cYsuj//58F1cORbczpHVfTP7z/SZhqTXB4r3wfu5ZCidUR2Q/OXj4sSB7IXRfCw==
+contentful-ui-extensions-sdk@^4.46.0:
+  version "4.46.0"
+  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.46.0.tgz#77bba1a48425e434c7c917c953d912407b29200d"
+  integrity sha512-nwRHmELa1g8QNPfPmKCwAWH2Aofxk6ehjiflwxCizqnhA3H6WdtwurAJF3XGAOK2pNYSv0VJWL4XvSBAZOgG/w==
   dependencies:
-    contentful-management "^11.57.1"
+    contentful-management "^11.60.2"
 
 convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
