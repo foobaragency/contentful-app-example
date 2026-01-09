@@ -4940,10 +4940,10 @@ content-type@~1.0.5:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
-contentful-management@^11.45.1, contentful-management@^11.60.2:
-  version "11.63.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.63.1.tgz#033f4f49b7c8af88901ba2918e9b586c6e808283"
-  integrity sha512-2EKvO3aP6XkUuGSg6yoCUBF2RyFiG++duDZhEj5BLzlcBGbeRY1Q7FjcRUicg7wjiPmIKKOpsH08XPQHiCSBGw==
+contentful-management@^11.45.1, contentful-management@^11.67.0:
+  version "11.67.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.67.0.tgz#b98edb1c3214d497e6dbe5de80591f76125e6aa2"
+  integrity sha512-Al6Dm9eBoLfBERl1nkYWLHGMSR98CCTPdsh466k2tjjlSGDAT3B2D/BnNTzpzidW5vYGIoVjRezGvcedV3vxfg==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.12.2"
@@ -4964,12 +4964,12 @@ contentful-sdk-core@^9.0.1:
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
-contentful-ui-extensions-sdk@^4.47.0:
-  version "4.47.0"
-  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.47.0.tgz#7e28ebaf86ab2481c37ca9f9cd9e9603b175396c"
-  integrity sha512-KUcWpF//rWzfVkQsRrcO8C9WHD4Ox0OYeL1Ww9lRUvboeTdWsHkBzCtW2LmPMy9gjyy85UbCdokrCtIWcdS6ow==
+contentful-ui-extensions-sdk@^4.50.0:
+  version "4.50.0"
+  resolved "https://registry.yarnpkg.com/contentful-ui-extensions-sdk/-/contentful-ui-extensions-sdk-4.50.0.tgz#21b565263183205220faa15acae8852324c9e41d"
+  integrity sha512-9UsFxHAMQNO0l64fYW5iHyyO4FrhCz33Xd8mK22ad9qhLQAHIhi20FM3k02PmuFuL38zcipbL075HnohOXMvsQ==
   dependencies:
-    contentful-management "^11.60.2"
+    contentful-management "^11.67.0"
 
 convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
