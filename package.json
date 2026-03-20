@@ -45,7 +45,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/color": "^4.2.0",
+    "@types/color": "^4.2.1",
     "prettier": "^3.8.1"
   }
 }
