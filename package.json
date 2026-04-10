@@ -46,6 +46,6 @@
   },
   "devDependencies": {
     "@types/color": "^4.2.1",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.2"
   }
 }
