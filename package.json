@@ -31,7 +31,7 @@
     "@contentful/forma-36-tokens": "^0.11.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^12.1.5",
-    "@testing-library/user-event": "^14.6.1",
+    "@testing-library/user-event": "^14.6.3",
     "@types/jest": "^29.5.14",
     "@types/node": "^26.1.2",
     "@types/react": "^18.0.8",
